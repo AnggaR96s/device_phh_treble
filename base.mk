@@ -135,3 +135,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	ch.deletescape.lawnchair.plah
+
+# Telephony
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
